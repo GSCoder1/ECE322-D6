@@ -15,7 +15,7 @@ $ docker run -v $PWD:/node -u 0 --rm --name=crossbar -it -p 8080:8080 crossbario
 ![image](https://user-images.githubusercontent.com/32800667/111930272-ebbdb680-8a8e-11eb-9ce8-63d3f809f9f5.png)
 
 ### Ran publish-client on Terminal 2 and subscribe-client on Terminal 3
--- Terminal 2 --
+**Terminal 2**
 ```sh
 $ sudo pip3 install -U autobahn[twisted,encryption,serialization,xbr]
 $ cd crossbar-examples/getting-started
@@ -26,7 +26,7 @@ $ python3 client_component_publish.py
 
 ![image](https://user-images.githubusercontent.com/32800667/111930491-756d8400-8a8f-11eb-8552-74003226c83d.png)
 
--- Terminal 3 --
+**Terminal 3**
 ```sh
 $cd crossbar-examples/getting-started/1.hello-world/
 $ python3 client_component_subscribe.py
