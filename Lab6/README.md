@@ -1,8 +1,16 @@
 # Lab 6A: Node.js
+ ```sh
+ node hello.js
+ ```
 
 ![image](https://user-images.githubusercontent.com/32800667/112777361-099b9600-9010-11eb-8ec9-321bd88e5e5a.png)
 
 ![image](https://user-images.githubusercontent.com/32800667/112777457-49fb1400-9010-11eb-9ec4-0af705f2b64b.png)
+
+
+```sh
+node http.js
+```
 
 ![image](https://user-images.githubusercontent.com/32800667/112777604-a100e900-9010-11eb-94ca-6a40407b3207.png)
 
@@ -10,6 +18,10 @@
 
 
 # Lab 6B: Pystache
+
+```sh
+python3 say_hello.py
+```
 
 ![image](https://user-images.githubusercontent.com/32800667/112778072-b6c2de00-9011-11eb-9255-27ac61f63f30.png)
 
